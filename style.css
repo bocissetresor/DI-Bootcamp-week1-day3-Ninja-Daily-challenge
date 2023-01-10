@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.card1 ,.card2,.card3{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 2px;
+    border: 1px solid black;
+}
+
+.card2,.card3{
+    margin-top: 30px;
+}
+
+.div2{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(211, 211, 211);
+}
+.div1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(207, 163, 82);
+}
+
+.div1:nth-child(-3n+19),
+.div1:nth-child(19) ~ div:nth-child(-3n+31),
+.div1:nth-child(31) ~ div:nth-child(-3n+46),
+.div1:nth-child(46) ~ div:nth-child(-3n+61),
+.div1:nth-child(61) ~ div:nth-child(-3n+76),
+.div1:nth-child(76) ~ div:nth-child(-3n+91),
+.div1:nth-child(91) ~ div:nth-child(-3n+106),
+.div1:nth-child(106) ~ div:nth-child(-3n+121),
+.div1:nth-child(121) ~ div:nth-child(-3n+136),
+.div1:nth-child(136) ~ div:nth-child(-3n+151),
+.div1:nth-child(151) ~ div:nth-child(-3n+166),
+.div1:nth-child(166) ~ div:nth-child(-3n+181),
+.div1:nth-child(181) ~ div:nth-child(-3n+196),
+.div1:nth-child(196) ~ div:nth-child(-3n+211),
+.div1:nth-child(211) ~ div:nth-child(-3n+226),
+.div1:nth-child(226) ~ div:nth-child(-3n+241), 
+.div1:nth-child(241  ) ~ div:nth-child(-3n+256) 
+{
+  background-color: #f55600;
+  
+}
+
+.div1:nth-child(-3n+18),
+.div1:nth-child(18) ~ div:nth-child(-3n+30),
+.div1:nth-child(30) ~ div:nth-child(-3n+45),
+.div1:nth-child(45) ~ div:nth-child(-3n+60),
+.div1:nth-child(60) ~ div:nth-child(-3n+75),
+.div1:nth-child(75) ~ div:nth-child(-3n+90),
+.div1:nth-child(90) ~ div:nth-child(-3n+105),
+.div1:nth-child(105) ~ div:nth-child(-3n+120),
+.div1:nth-child(120) ~ div:nth-child(-3n+135),
+.div1:nth-child(135) ~ div:nth-child(-3n+150),
+.div1:nth-child(150) ~ div:nth-child(-3n+165),
+.div1:nth-child(165) ~ div:nth-child(-3n+180),
+.div1:nth-child(180) ~ div:nth-child(-3n+195),
+.div1:nth-child(195) ~ div:nth-child(-3n+210),
+.div1:nth-child(210) ~ div:nth-child(-3n+225),
+.div1:nth-child(225) ~ div:nth-child(-3n+240), 
+.div1:nth-child(240 ) ~ div:nth-child(-3n+255) {
+    background-color: brown;
+}
+
+.div2:nth-child(2n){
+    background-color: rgb(133, 132, 132);
+}
+.div2:nth-child(4n){
+    background-color: rgb(0, 0, 0);
+}
+.div2:nth-child(4n-1){
+    background-color: rgb(56, 54, 54);
+}
+.div3{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(243, 242, 241);
+}
+.div3:nth-child(-2n+16),
+.div3:nth-child(16) ~ div:nth-child(-2n+31),
+.div3:nth-child(32) ~ div:nth-child(-2n+48),
+.div3:nth-child(47) ~ div:nth-child(-2n+63),
+.div3:nth-child(64) ~ div:nth-child(-2n+80),
+.div3:nth-child(79) ~ div:nth-child(-2n+95),
+.div3:nth-child(96) ~ div:nth-child(-2n+112),
+.div3:nth-child(111) ~ div:nth-child(-2n+127),
+.div3:nth-child(128) ~ div:nth-child(-2n+144){
+
+    background-color: rgb(239, 128, 128);
+}
+.div3:nth-child(2n+18){
+    background-color: rgb(227, 57, 57);
+}
+
+
+
